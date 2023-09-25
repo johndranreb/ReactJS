@@ -47,7 +47,7 @@ handleSubmit = event => {
       </div>
             {/* Step 1 adding the HMTL */}
       <div>
-        <lable>Topic</lable>
+        <label>Topic</label>
          {/* Step 3 assign the change handler that updates the state onChange */}
         <select vaule={topic} onChange={this.handleTopicChange}>
           <option value="react"> React</option>
@@ -56,7 +56,7 @@ handleSubmit = event => {
         </select>
       </div>
       <button type="submit">Submit</button>
-     </form>>
+     </form>
     )
   }
 }
